@@ -135,7 +135,8 @@ Create a virtual environment (recommended)
 ```
 python -m venv venv
 source venv/bin/activate  # on Linux/Mac
-venv\Scripts\activate```     # on Windows
+venv\Scripts\activate
+```     # on Windows
 
 Install required packages
 ```
