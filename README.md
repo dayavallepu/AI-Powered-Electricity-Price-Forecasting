@@ -121,8 +121,48 @@ Based on the models data preprocessing will be done
               1.Streamlit
 
 
-              
-             
+
+## ▶️ How to Run This Project
+Follow these steps to run the AI-powered electricity price forecasting project locally:
+
+- **Clone the repository**
+
+```git clone https://github.com/dayavallepu/AI-Powered-Electricity-Price-Forecasting.git
+cd AI-Powered-Electricity-Price-Forecasting```
+
+
+Create a virtual environment (recommended)
+```
+python -m venv venv
+source venv/bin/activate  # on Linux/Mac
+venv\Scripts\activate```     # on Windows
+
+Install required packages
+```
+pip install -r requirements.txt
+```
+Set up your database (if needed)
+Make sure your SQL database with IEX data is running
+
+Update any database connection strings in the code (usually in config.py or a .env file)
+
+- **Run the Streamlit app**
+
+
+cd app
+streamlit run app.py
+Explore
+
+Open the provided Streamlit interface in your browser
+
+Test the forecasting models and visualize the results
+
+Notes:
+✅ Ensure you have Python 3.9+ installed
+✅ Check your data paths and connection strings
+✅ For any issues, raise an issue in this repository
+
+
 
 
 
